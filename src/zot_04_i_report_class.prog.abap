@@ -129,7 +129,7 @@ CLASS lcl_main IMPLEMENTATION.
 
     rs_layo = VALUE lvc_s_layo(     zebra       = abap_true
                                     sel_mode    = 'A'
-                                    cwidth_opt  = abap_true
+*                                    cwidth_opt  = abap_true
                                      info_fname = 'LINE_COLOR'
                                    ).
   ENDMETHOD.
